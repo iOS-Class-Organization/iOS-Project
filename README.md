@@ -73,4 +73,5 @@ When you’re bored or have nothing to do, download the Time Killer App! A produ
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://media.giphy.com/media/QNckH3KBYwKM0L7hSB/giphy.gif"><br>
 
+### [BONUS] Interactive Prototype
 <img src="https://media.giphy.com/media/dQm5z8dfPbJ9uFwJU0/giphy.gif" height=200>
