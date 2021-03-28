@@ -1,10 +1,6 @@
 Unit 7: Group Milestone - README Example
 ===
 
-:::info
-**Below is an example** of what your **Group Project README** should include and how it should be structured for the **Unit 8 Group Milestone Submission**.
-:::
-
 # Time Killer
 
 ## Table of Contents
@@ -73,7 +69,8 @@ When you’re bored or have nothing to do, download the Time Killer App! A produ
 * Settings -> Toggle settings
 
 ## Wireframes
-<img src="" width=800><br>
+
+<img src="https://media.giphy.com/media/QNckH3KBYwKM0L7hSB/giphy.gif"><br>
 
 ### [BONUS] Digital Wireframes & Mockups
 <img src="" height=200>
