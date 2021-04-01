@@ -15,6 +15,8 @@
 		547871D0261654980018E6D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547871CE261654980018E6D7 /* LaunchScreen.storyboard */; };
 		547871DB261654980018E6D7 /* Time_KillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547871DA261654980018E6D7 /* Time_KillerTests.swift */; };
 		547871E6261654980018E6D7 /* Time_KillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547871E5261654980018E6D7 /* Time_KillerUITests.swift */; };
+		54D4C39B261659EF00BB9118 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4C39A261659EF00BB9118 /* LoginViewController.swift */; };
+		54D4C3A026165C5F00BB9118 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4C39F26165C5F00BB9118 /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		547871E1261654980018E6D7 /* Time KillerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time KillerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		547871E5261654980018E6D7 /* Time_KillerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_KillerUITests.swift; sourceTree = "<group>"; };
 		547871E7261654980018E6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54D4C39A261659EF00BB9118 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		54D4C39F26165C5F00BB9118 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				547871CC261654980018E6D7 /* Assets.xcassets */,
 				547871CE261654980018E6D7 /* LaunchScreen.storyboard */,
 				547871D1261654980018E6D7 /* Info.plist */,
+				54D4C39A261659EF00BB9118 /* LoginViewController.swift */,
+				54D4C39F26165C5F00BB9118 /* CreateAccountViewController.swift */,
 			);
 			path = "Time Killer";
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54D4C3A026165C5F00BB9118 /* CreateAccountViewController.swift in Sources */,
+				54D4C39B261659EF00BB9118 /* LoginViewController.swift in Sources */,
 				547871C8261654960018E6D7 /* ViewController.swift in Sources */,
 				547871C4261654960018E6D7 /* AppDelegate.swift in Sources */,
 				547871C6261654960018E6D7 /* SceneDelegate.swift in Sources */,
