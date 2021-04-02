@@ -75,9 +75,9 @@ When you’re bored or have nothing to do, download the Time Killer App! A produ
 
 ### [BONUS] Interactive Prototype
 <img src="https://media.giphy.com/media/dQm5z8dfPbJ9uFwJU0/giphy.gif" height=200>
+
 **Data Model**
 <img src="http://g.recordit.co/NcxCc1ZGRV.gif"><br>
-
 
 
 ## Sprints
