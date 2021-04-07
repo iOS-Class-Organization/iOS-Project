@@ -1,0 +1,6 @@
+framework module Pods_Time_KillerTests {
+  umbrella header "Pods-Time KillerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
