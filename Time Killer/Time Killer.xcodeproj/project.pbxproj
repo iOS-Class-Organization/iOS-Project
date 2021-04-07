@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A9B867E904DCE8A6CF42394 /* Pods_Time_Killer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4177331F9C2421A9B806AC0 /* Pods_Time_Killer.framework */; };
+		5474F3642381D8C5C1B0BAC2 /* Pods_Time_KillerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6FC69688FC05C4F163C9E6 /* Pods_Time_KillerTests.framework */; };
 		547871C4261654960018E6D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547871C3261654960018E6D7 /* AppDelegate.swift */; };
 		547871C6261654960018E6D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547871C5261654960018E6D7 /* SceneDelegate.swift */; };
 		547871C8261654960018E6D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547871C7261654960018E6D7 /* ViewController.swift */; };
@@ -17,6 +19,7 @@
 		547871E6261654980018E6D7 /* Time_KillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547871E5261654980018E6D7 /* Time_KillerUITests.swift */; };
 		54D4C39B261659EF00BB9118 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4C39A261659EF00BB9118 /* LoginViewController.swift */; };
 		54D4C3A026165C5F00BB9118 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4C39F26165C5F00BB9118 /* CreateAccountViewController.swift */; };
+		89E14DC2D32C8AF2B7729F96 /* Pods_Time_Killer_Time_KillerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7266DED5DF2B6AEE09DC73 /* Pods_Time_Killer_Time_KillerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B820A150666E0AD66FBB5FC /* Pods-Time Killer-Time KillerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Killer-Time KillerUITests.release.xcconfig"; path = "Target Support Files/Pods-Time Killer-Time KillerUITests/Pods-Time Killer-Time KillerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		40BEB8EB45E32AA610B41FCF /* Pods-Time KillerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time KillerTests.debug.xcconfig"; path = "Target Support Files/Pods-Time KillerTests/Pods-Time KillerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		547871C0261654960018E6D7 /* Time Killer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Killer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		547871C3261654960018E6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		547871C5261654960018E6D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +58,13 @@
 		547871E7261654980018E6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54D4C39A261659EF00BB9118 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		54D4C39F26165C5F00BB9118 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		7F6FC69688FC05C4F163C9E6 /* Pods_Time_KillerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_KillerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F9B6D12D87BE479BE27B7E /* Pods-Time KillerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time KillerTests.release.xcconfig"; path = "Target Support Files/Pods-Time KillerTests/Pods-Time KillerTests.release.xcconfig"; sourceTree = "<group>"; };
+		B24200AFE6B63AA894472A8A /* Pods-Time Killer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Killer.debug.xcconfig"; path = "Target Support Files/Pods-Time Killer/Pods-Time Killer.debug.xcconfig"; sourceTree = "<group>"; };
+		BF602BC35F31393B13B31292 /* Pods-Time Killer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Killer.release.xcconfig"; path = "Target Support Files/Pods-Time Killer/Pods-Time Killer.release.xcconfig"; sourceTree = "<group>"; };
+		D4177331F9C2421A9B806AC0 /* Pods_Time_Killer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_Killer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF547CDBD91CEE829B3D9DBE /* Pods-Time Killer-Time KillerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Killer-Time KillerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Time Killer-Time KillerUITests/Pods-Time Killer-Time KillerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA7266DED5DF2B6AEE09DC73 /* Pods_Time_Killer_Time_KillerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_Killer_Time_KillerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9B867E904DCE8A6CF42394 /* Pods_Time_Killer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5474F3642381D8C5C1B0BAC2 /* Pods_Time_KillerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89E14DC2D32C8AF2B7729F96 /* Pods_Time_Killer_Time_KillerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0562143BC8A762301BE0C768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4177331F9C2421A9B806AC0 /* Pods_Time_Killer.framework */,
+				FA7266DED5DF2B6AEE09DC73 /* Pods_Time_Killer_Time_KillerUITests.framework */,
+				7F6FC69688FC05C4F163C9E6 /* Pods_Time_KillerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		547871B7261654950018E6D7 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +112,8 @@
 				547871D9261654980018E6D7 /* Time KillerTests */,
 				547871E4261654980018E6D7 /* Time KillerUITests */,
 				547871C1261654960018E6D7 /* Products */,
+				6B2ED4A0AC06AF492EE4FF43 /* Pods */,
+				0562143BC8A762301BE0C768 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +161,20 @@
 			path = "Time KillerUITests";
 			sourceTree = "<group>";
 		};
+		6B2ED4A0AC06AF492EE4FF43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B24200AFE6B63AA894472A8A /* Pods-Time Killer.debug.xcconfig */,
+				BF602BC35F31393B13B31292 /* Pods-Time Killer.release.xcconfig */,
+				EF547CDBD91CEE829B3D9DBE /* Pods-Time Killer-Time KillerUITests.debug.xcconfig */,
+				0B820A150666E0AD66FBB5FC /* Pods-Time Killer-Time KillerUITests.release.xcconfig */,
+				40BEB8EB45E32AA610B41FCF /* Pods-Time KillerTests.debug.xcconfig */,
+				88F9B6D12D87BE479BE27B7E /* Pods-Time KillerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 547871EA261654980018E6D7 /* Build configuration list for PBXNativeTarget "Time Killer" */;
 			buildPhases = (
+				AFD4EC89BBD824C6732056C0 /* [CP] Check Pods Manifest.lock */,
 				547871BC261654950018E6D7 /* Sources */,
 				547871BD261654950018E6D7 /* Frameworks */,
 				547871BE261654950018E6D7 /* Resources */,
+				94BD2ADE4C24D87A021C07D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 547871ED261654980018E6D7 /* Build configuration list for PBXNativeTarget "Time KillerTests" */;
 			buildPhases = (
+				AEE2CC5F316470382F4DACA0 /* [CP] Check Pods Manifest.lock */,
 				547871D2261654980018E6D7 /* Sources */,
 				547871D3261654980018E6D7 /* Frameworks */,
 				547871D4261654980018E6D7 /* Resources */,
@@ -176,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 547871F0261654980018E6D7 /* Build configuration list for PBXNativeTarget "Time KillerUITests" */;
 			buildPhases = (
+				DA051C4451D878F153F3F9FC /* [CP] Check Pods Manifest.lock */,
 				547871DD261654980018E6D7 /* Sources */,
 				547871DE261654980018E6D7 /* Frameworks */,
 				547871DF261654980018E6D7 /* Resources */,
+				56A2E47C3103C474E7D363FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +304,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56A2E47C3103C474E7D363FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Killer-Time KillerUITests/Pods-Time Killer-Time KillerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Killer-Time KillerUITests/Pods-Time Killer-Time KillerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Time Killer-Time KillerUITests/Pods-Time Killer-Time KillerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94BD2ADE4C24D87A021C07D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Killer/Pods-Time Killer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Time Killer/Pods-Time Killer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Time Killer/Pods-Time Killer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEE2CC5F316470382F4DACA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Time KillerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD4EC89BBD824C6732056C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Time Killer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA051C4451D878F153F3F9FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Time Killer-Time KillerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		547871BC261654950018E6D7 /* Sources */ = {
@@ -441,6 +590,7 @@
 		};
 		547871EB261654980018E6D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24200AFE6B63AA894472A8A /* Pods-Time Killer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +610,7 @@
 		};
 		547871EC261654980018E6D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF602BC35F31393B13B31292 /* Pods-Time Killer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +630,7 @@
 		};
 		547871EE261654980018E6D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40BEB8EB45E32AA610B41FCF /* Pods-Time KillerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +653,7 @@
 		};
 		547871EF261654980018E6D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88F9B6D12D87BE479BE27B7E /* Pods-Time KillerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +676,7 @@
 		};
 		547871F1261654980018E6D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF547CDBD91CEE829B3D9DBE /* Pods-Time Killer-Time KillerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +697,7 @@
 		};
 		547871F2261654980018E6D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B820A150666E0AD66FBB5FC /* Pods-Time Killer-Time KillerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

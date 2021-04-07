@@ -1,0 +1,6 @@
+framework module Pods_Time_Killer_Time_KillerUITests {
+  umbrella header "Pods-Time Killer-Time KillerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
