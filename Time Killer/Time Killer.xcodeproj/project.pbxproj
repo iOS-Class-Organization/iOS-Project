@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A9B867E904DCE8A6CF42394 /* Pods_Time_Killer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4177331F9C2421A9B806AC0 /* Pods_Time_Killer.framework */; };
+		5448C5A7261FE2C800B3EE8E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5448C5A6261FE2C800B3EE8E /* ProfileViewController.swift */; };
 		5474F3642381D8C5C1B0BAC2 /* Pods_Time_KillerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6FC69688FC05C4F163C9E6 /* Pods_Time_KillerTests.framework */; };
 		547871C4261654960018E6D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547871C3261654960018E6D7 /* AppDelegate.swift */; };
 		547871C6261654960018E6D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547871C5261654960018E6D7 /* SceneDelegate.swift */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		0B820A150666E0AD66FBB5FC /* Pods-Time Killer-Time KillerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Killer-Time KillerUITests.release.xcconfig"; path = "Target Support Files/Pods-Time Killer-Time KillerUITests/Pods-Time Killer-Time KillerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		40BEB8EB45E32AA610B41FCF /* Pods-Time KillerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time KillerTests.debug.xcconfig"; path = "Target Support Files/Pods-Time KillerTests/Pods-Time KillerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5448C5A6261FE2C800B3EE8E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		547871C0261654960018E6D7 /* Time Killer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Killer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		547871C3261654960018E6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		547871C5261654960018E6D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				54D4C39F26165C5F00BB9118 /* CreateAccountViewController.swift */,
 				E9D9D748261FD0EF0006F506 /* ActivitySelectionViewController.swift */,
 				E9D9D74D261FD0FD0006F506 /* ActivityDetailViewController.swift */,
+				5448C5A6261FE2C800B3EE8E /* ProfileViewController.swift */,
 			);
 			path = "Time Killer";
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 				54D4C39B261659EF00BB9118 /* LoginViewController.swift in Sources */,
 				547871C8261654960018E6D7 /* ViewController.swift in Sources */,
 				547871C4261654960018E6D7 /* AppDelegate.swift in Sources */,
+				5448C5A7261FE2C800B3EE8E /* ProfileViewController.swift in Sources */,
 				547871C6261654960018E6D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
