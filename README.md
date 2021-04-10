@@ -79,6 +79,8 @@ When you’re bored or have nothing to do, download the Time Killer App! A produ
 ### Data Model
 <img src="http://g.recordit.co/NcxCc1ZGRV.gif"><br>
 
+## Networking 
+Using a self developed back end code
 
 ## Sprints
 
