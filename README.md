@@ -79,6 +79,8 @@ When you’re bored or have nothing to do, download the Time Killer App! A produ
 ### Data Model
 <img src="http://g.recordit.co/NcxCc1ZGRV.gif"><br>
 
+## Networking 
+Using a self developed back end code
 
 ## Sprints
 
@@ -87,3 +89,9 @@ Issues:
 Design the Different Screens for the App Wireframe - Samiksha
 
 Create the Different Screens on XCode - The whole team
+
+## Sprint 2 - Unit 8 & 9
+Continue making the features of the app
+
+<img src="https://media.giphy.com/media/dMfJZ3pEtEqcXKJFBX/giphy.gif"><br>
+This is still clearly a work in progress. The login and logout completely works, but the other features are still currently being worked on.
