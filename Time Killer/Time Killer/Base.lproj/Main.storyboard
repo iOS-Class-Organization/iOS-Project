@@ -102,7 +102,6 @@
         <!--Activity Progress-->
         <scene sceneID="fEO-Sz-DaV">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MA0-FP-WKY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController title="Activity Progress" modalPresentationStyle="fullScreen" id="Zpb-C8-inV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gab-n8-g0J">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -160,13 +159,14 @@
                     <tabBarItem key="tabBarItem" title="Activity Progress" id="Tjv-z8-Iyx"/>
                     <navigationItem key="navigationItem" id="EPO-am-7xh"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MA0-FP-WKY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2966.666666666667" y="-149.33035714285714"/>
         </scene>
         <!--Activity Selection-->
         <scene sceneID="626-47-XOO">
             <objects>
-                <viewController title="Activity Selection" id="WPV-NA-LNJ" sceneMemberID="viewController">
+                <viewController title="Activity Selection" id="WPV-NA-LNJ" customClass="ActivityGridViewController" customModule="Time_Killer" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="3QI-cc-MCd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -178,7 +178,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="uzi-tG-pIr">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ActivityGridCell" id="uzi-tG-pIr" customClass="ActivityGridCell" customModule="Time_Killer" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="199" height="276"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="oaQ-Qd-ms1">
@@ -193,12 +193,16 @@
                                 </collectionViewCellContentView>
                                 <size key="customSize" width="199" height="276"/>
                                 <connections>
+                                    <outlet property="activityTypeView" destination="BDW-ZV-OSN" id="02V-cg-cwe"/>
                                     <segue destination="J65-aN-ATa" kind="show" id="HW8-fE-A9V"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
                     </collectionView>
                     <navigationItem key="navigationItem" title="Discover" id="Ju7-hr-YPv"/>
+                    <connections>
+                        <outlet property="collectionView" destination="3QI-cc-MCd" id="R8B-R4-WUf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xPh-TX-Rgm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

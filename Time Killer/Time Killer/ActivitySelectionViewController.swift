@@ -9,6 +9,8 @@ import UIKit
 
 class ActivitySelectionViewController: UIViewController {
 
+    var activityDict: [String: [String]] = ["Fitness": ["Baseball", "Basketball", "Cricket", "Running", "American Football", "Soccer", "Weight Training", "HIIT", "Yoga" ] ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,5 +27,6 @@ class ActivitySelectionViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
 
 }
