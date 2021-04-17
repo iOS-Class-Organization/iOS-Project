@@ -22,6 +22,7 @@
 		547871E6261654980018E6D7 /* Time_KillerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547871E5261654980018E6D7 /* Time_KillerUITests.swift */; };
 		54D4C39B261659EF00BB9118 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4C39A261659EF00BB9118 /* LoginViewController.swift */; };
 		54D4C3A026165C5F00BB9118 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4C39F26165C5F00BB9118 /* CreateAccountViewController.swift */; };
+		54FF4E51262A21F7004A8511 /* ActivitySelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF4E50262A21F7004A8511 /* ActivitySelectionTableViewCell.swift */; };
 		89E14DC2D32C8AF2B7729F96 /* Pods_Time_Killer_Time_KillerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7266DED5DF2B6AEE09DC73 /* Pods_Time_Killer_Time_KillerUITests.framework */; };
 		E9D9D749261FD0EF0006F506 /* ActivitySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9D748261FD0EF0006F506 /* ActivitySelectionViewController.swift */; };
 		E9D9D74E261FD0FD0006F506 /* ActivityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9D74D261FD0FD0006F506 /* ActivityDetailViewController.swift */; };
@@ -66,6 +67,7 @@
 		547871E7261654980018E6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54D4C39A261659EF00BB9118 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		54D4C39F26165C5F00BB9118 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		54FF4E50262A21F7004A8511 /* ActivitySelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySelectionTableViewCell.swift; sourceTree = "<group>"; };
 		7F6FC69688FC05C4F163C9E6 /* Pods_Time_KillerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_KillerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F9B6D12D87BE479BE27B7E /* Pods-Time KillerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time KillerTests.release.xcconfig"; path = "Target Support Files/Pods-Time KillerTests/Pods-Time KillerTests.release.xcconfig"; sourceTree = "<group>"; };
 		B24200AFE6B63AA894472A8A /* Pods-Time Killer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Killer.debug.xcconfig"; path = "Target Support Files/Pods-Time Killer/Pods-Time Killer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				5448C5A6261FE2C800B3EE8E /* ProfileViewController.swift */,
 				5427031626235B9F000F8A40 /* ActivityGridViewController.swift */,
 				5427031B262364A2000F8A40 /* ActivityGridCell.swift */,
+				54FF4E50262A21F7004A8511 /* ActivitySelectionTableViewCell.swift */,
 			);
 			path = "Time Killer";
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				E9D9D749261FD0EF0006F506 /* ActivitySelectionViewController.swift in Sources */,
 				54D4C3A026165C5F00BB9118 /* CreateAccountViewController.swift in Sources */,
 				E9D9D74E261FD0FD0006F506 /* ActivityDetailViewController.swift in Sources */,
+				54FF4E51262A21F7004A8511 /* ActivitySelectionTableViewCell.swift in Sources */,
 				54D4C39B261659EF00BB9118 /* LoginViewController.swift in Sources */,
 				547871C8261654960018E6D7 /* ViewController.swift in Sources */,
 				547871C4261654960018E6D7 /* AppDelegate.swift in Sources */,

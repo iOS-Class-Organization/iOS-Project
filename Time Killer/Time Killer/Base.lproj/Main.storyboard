@@ -171,7 +171,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="znf-W3-dRr">
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="znf-W3-dRr">
                             <size key="itemSize" width="199" height="276"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -194,7 +194,7 @@
                                 <size key="customSize" width="199" height="276"/>
                                 <connections>
                                     <outlet property="activityTypeView" destination="BDW-ZV-OSN" id="02V-cg-cwe"/>
-                                    <segue destination="J65-aN-ATa" kind="show" id="HW8-fE-A9V"/>
+                                    <segue destination="J65-aN-ATa" kind="show" id="Jwd-b9-6po"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -221,7 +221,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="151" id="jFw-Nl-iVs">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ActivitySelectionTableViewCell" rowHeight="151" id="jFw-Nl-iVs" customClass="ActivitySelectionTableViewCell" customModule="Time_Killer">
                                         <rect key="frame" x="0.0" y="28" width="414" height="151"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jFw-Nl-iVs" id="QdY-XJ-kkh">
@@ -242,7 +242,9 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="TJa-Rg-tba" kind="show" id="RZ7-r6-F3f"/>
+                                            <outlet property="activityImageView" destination="7Ps-pQ-NQB" id="f3n-l8-WVK"/>
+                                            <outlet property="activityName" destination="xlI-lf-0eZ" id="bSI-Co-ypC"/>
+                                            <segue destination="TJa-Rg-tba" kind="show" id="MiH-Mr-1qR"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -252,10 +254,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="OUy-fh-Jlc"/>
+                    <connections>
+                        <outlet property="tableView" destination="zvG-15-5nD" id="ty6-Iu-GgJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MKv-W0-Zom" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3934.7826086956525" y="-796.20535714285711"/>
+            <point key="canvasLocation" x="3949" y="-806"/>
         </scene>
         <!--Activity Detail View Controller-->
         <scene sceneID="l60-fe-B6C">
@@ -291,7 +296,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ybP-Ex-DRh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4876.811594202899" y="-796.20535714285711"/>
+            <point key="canvasLocation" x="4883" y="-806"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ZFp-2h-gfq">
@@ -609,7 +614,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="72B-hZ-MAC"/>
+        <segue reference="tHo-dV-cRp"/>
     </inferredMetricsTieBreakers>
     <resources>
         <namedColor name="AccentColor">
