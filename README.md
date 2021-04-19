@@ -92,11 +92,17 @@ Create the Different Screens on XCode - The whole team
 
 ## Sprint 2 - Unit 8
 We continued working on the overall app features and focused more on the visual effects of the app. 
+
 Issues:
+
 Profile Screen - Melaine
+
 Activity Selection Screen - John & Samiksha 
+
 Activity Progress - John
+
 Settings - Lucas
+
 App logo - Samiksha 
 
 ## Sprint 2 - Unit 9
