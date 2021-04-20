@@ -27,13 +27,10 @@ class ProfileViewController: UIViewController {
         LastNameLabel.text = user.lastName
         // grab the number of tasks completed
         // grab number of tasks in progress
-        
-        
 
         // Do any additional setup after loading the view.
     }
-    
-    
+        
     // tap gesture that brings the photos library up
     @IBAction func tapPictureButton(_ sender: Any) {
         let picker = UIImagePickerController()
@@ -59,6 +56,13 @@ class ProfileViewController: UIViewController {
         
         dismiss(animated: true, completion: nil)
         
+    @IBAction func onLogOut(_ sender: Any) {
+        // Want to logout of PF | clears the parse cache to signal that we are logged out
+        PFUser.logOut()
+        // Want to go back to the login screen
+        self.dismiss(animated: true, completion: nil)
+        // Want to make sure to set the variable so the app knows that we need to login
+        UserDefaults.standard.set(false, forKey: "userLoggedIn")
     }
     /*
     // MARK: - Navigation

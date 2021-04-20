@@ -79,6 +79,8 @@ When you’re bored or have nothing to do, download the Time Killer App! A produ
 ### Data Model
 <img src="http://g.recordit.co/NcxCc1ZGRV.gif"><br>
 
+## Networking 
+Using a self developed back end code
 
 ## Sprints
 
@@ -87,3 +89,26 @@ Issues:
 Design the Different Screens for the App Wireframe - Samiksha
 
 Create the Different Screens on XCode - The whole team
+
+## Sprint 2 - Unit 8
+We continued working on the overall app features and focused more on the visual effects of the app. 
+
+Issues:
+
+Profile Screen coding and layout - Melaine
+
+Activity Selection Screen coding, planing and layout- John & Samiksha 
+
+Activity Progress coding and layout - John
+
+Settings - Lucas
+
+App logo - Samiksha 
+
+<img src="https://media.giphy.com/media/dMfJZ3pEtEqcXKJFBX/giphy.gif"><br>
+
+## Sprint 3 - Unit 9
+Continue making the features of the app
+
+<img src="https://media.giphy.com/media/ZRtjk7Jjp9L5CzCXFN/giphy.gif"><br>
+This is still clearly a work in progress. The login and logout completely works, but the other features are still currently being worked on.
