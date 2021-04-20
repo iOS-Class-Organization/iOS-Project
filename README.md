@@ -107,7 +107,7 @@ App logo - Samiksha
 
 <img src="https://media.giphy.com/media/dMfJZ3pEtEqcXKJFBX/giphy.gif"><br>
 
-## Sprint 2 - Unit 9
+## Sprint 3 - Unit 9
 Continue making the features of the app
 
 
