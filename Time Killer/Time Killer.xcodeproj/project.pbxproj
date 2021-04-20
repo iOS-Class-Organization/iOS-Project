@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		54D4C39B261659EF00BB9118 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4C39A261659EF00BB9118 /* LoginViewController.swift */; };
 		54D4C3A026165C5F00BB9118 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D4C39F26165C5F00BB9118 /* CreateAccountViewController.swift */; };
 		89E14DC2D32C8AF2B7729F96 /* Pods_Time_Killer_Time_KillerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7266DED5DF2B6AEE09DC73 /* Pods_Time_Killer_Time_KillerUITests.framework */; };
+		C1E0B9F2262100F100F0A865 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E0B9F1262100F100F0A865 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		88F9B6D12D87BE479BE27B7E /* Pods-Time KillerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time KillerTests.release.xcconfig"; path = "Target Support Files/Pods-Time KillerTests/Pods-Time KillerTests.release.xcconfig"; sourceTree = "<group>"; };
 		B24200AFE6B63AA894472A8A /* Pods-Time Killer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Killer.debug.xcconfig"; path = "Target Support Files/Pods-Time Killer/Pods-Time Killer.debug.xcconfig"; sourceTree = "<group>"; };
 		BF602BC35F31393B13B31292 /* Pods-Time Killer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Killer.release.xcconfig"; path = "Target Support Files/Pods-Time Killer/Pods-Time Killer.release.xcconfig"; sourceTree = "<group>"; };
+		C1E0B9F1262100F100F0A865 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D4177331F9C2421A9B806AC0 /* Pods_Time_Killer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_Killer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF547CDBD91CEE829B3D9DBE /* Pods-Time Killer-Time KillerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Time Killer-Time KillerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Time Killer-Time KillerUITests/Pods-Time Killer-Time KillerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA7266DED5DF2B6AEE09DC73 /* Pods_Time_Killer_Time_KillerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Time_Killer_Time_KillerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +136,7 @@
 				547871C5261654960018E6D7 /* SceneDelegate.swift */,
 				547871C7261654960018E6D7 /* ViewController.swift */,
 				547871C9261654960018E6D7 /* Main.storyboard */,
+				C1E0B9F1262100F100F0A865 /* ProfileViewController.swift */,
 				547871CC261654980018E6D7 /* Assets.xcassets */,
 				547871CE261654980018E6D7 /* LaunchScreen.storyboard */,
 				547871D1261654980018E6D7 /* Info.plist */,
@@ -171,7 +174,6 @@
 				40BEB8EB45E32AA610B41FCF /* Pods-Time KillerTests.debug.xcconfig */,
 				88F9B6D12D87BE479BE27B7E /* Pods-Time KillerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -413,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1E0B9F2262100F100F0A865 /* ProfileViewController.swift in Sources */,
 				54D4C3A026165C5F00BB9118 /* CreateAccountViewController.swift in Sources */,
 				54D4C39B261659EF00BB9118 /* LoginViewController.swift in Sources */,
 				547871C8261654960018E6D7 /* ViewController.swift in Sources */,
