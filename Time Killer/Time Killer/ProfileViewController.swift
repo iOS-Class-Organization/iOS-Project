@@ -10,7 +10,7 @@ import Parse
 import AlamofireImage
 
 
-class ProfileViewController: UIViewController {
+class ProfileViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate {
     
     @IBOutlet weak var FirstNameLabel: UILabel!
     @IBOutlet weak var LastNameLabel: UILabel!
@@ -23,8 +23,10 @@ class ProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let user = PFUser()
-        FirstNameLabel.text = user.firstName
-        LastNameLabel.text = user.lastName
+        
+        // TODO: PFUser does not have a member first name and last name... need to find another way to store it
+//        FirstNameLabel.text = user.firstName
+//        LastNameLabel.text = user.lastName
         // grab the number of tasks completed
         // grab number of tasks in progress
 
@@ -52,9 +54,10 @@ class ProfileViewController: UIViewController {
         
         let size = CGSize(width: 200, height:200)
         let scaledImage = image.af_imageAspectScaled(toFit: size)
-        imageView.image = scaledImage
+        ProfilePicImage.image = scaledImage
         
         dismiss(animated: true, completion: nil)
+    }
         
     @IBAction func onLogOut(_ sender: Any) {
         // Want to logout of PF | clears the parse cache to signal that we are logged out

@@ -108,7 +108,7 @@ App logo - Samiksha
 <img src="https://media.giphy.com/media/dMfJZ3pEtEqcXKJFBX/giphy.gif"><br>
 
 ## Sprint 3 - Unit 9
-Continue making the features of the app
+Continuing the implementation of features in the app
 
-<img src="https://media.giphy.com/media/ZRtjk7Jjp9L5CzCXFN/giphy.gif"><br>
+<img src="https://media.giphy.com/media/HiCScRB4aNHUxNVN1g/giphy.gif"><br>
 This is still clearly a work in progress. The login and logout completely works, but the other features are still currently being worked on.
