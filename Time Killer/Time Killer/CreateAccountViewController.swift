@@ -16,6 +16,8 @@ class CreateAccountViewController: UIViewController {
     @IBOutlet weak var birthDateOfUser: UIDatePicker!
     @IBOutlet weak var userNameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    public var firstName
+    public var lastName
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,8 +28,8 @@ class CreateAccountViewController: UIViewController {
     @IBAction func onCreateAccount(_ sender: Any) {
         let username = userNameField.text
         let password = passwordField.text
-        let firstName = firstNameTextField.text
-        let lastName = lastNameTextField.text
+        firstName = firstNameTextField.text
+        lastName = lastNameTextField.text
         // For some reason the date is four hours ahead, so subtracting 3600 seconds * 4 Hours gives us the proper time
         let date = birthDateOfUser.date - (3600 * 4)
         

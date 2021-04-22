@@ -22,9 +22,9 @@ class ProfileViewController: UIViewController {
     // prelabel of name and number of tasks they have completed
     override func viewDidLoad() {
         super.viewDidLoad()
-        let user = PFUser()
-        FirstNameLabel.text = user.firstName
-        LastNameLabel.text = user.lastName
+        //let user = PFUser()`                  1
+        FirstNameLabel.text = firstName
+        LastNameLabel.text = lastName
         // grab the number of tasks completed
         // grab number of tasks in progress
 
