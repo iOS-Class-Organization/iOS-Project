@@ -22,6 +22,9 @@ class ProfileViewController: UIViewController, UIImagePickerControllerDelegate &
     // prelabel of name and number of tasks they have completed
     override func viewDidLoad() {
         super.viewDidLoad()
+        //let user = PFUser()`                  1
+        FirstNameLabel.text = firstName
+        LastNameLabel.text = lastName
         let user = PFUser()
         
         // TODO: PFUser does not have a member first name and last name... need to find another way to store it
